@@ -6,8 +6,8 @@ on:
       - main
 
 env:
-  AWS_REGION: us-east-1  # Replace with your desired AWS region
-  REPO_NAME: my-simple-app  # Replace with your desired ecr repository name
+  AWS_REGION: eu-central-1 # Replace with your desired AWS region
+  REPO_NAME: my-simple-app # Replace with your desired ecr repository name
 
 jobs:
   build-and-push:
